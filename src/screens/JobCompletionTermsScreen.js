@@ -133,7 +133,7 @@ export default function JobCompletionTermsScreen({ navigation, route }) {
       return;
     }
 
-    navigation.navigate("Signature", {
+    navigation.navigate("CompleteJob", {
       type: "complete",
       jobId,
       job,
